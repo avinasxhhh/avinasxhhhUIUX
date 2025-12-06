@@ -42,7 +42,7 @@ function loco() {
 
 }
 
-// document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 function menu() {
     const menu = document.getElementById('nav');
