@@ -1,7 +1,7 @@
 function loco() {
     gsap.registerPlugin(ScrollTrigger);
 
-    Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
+    // Using Locomotive Scroll from Locomotive https://github.com/locomotivemtl/locomotive-scroll
 
     const locoScroll = new LocomotiveScroll({
         el: document.querySelector(".main"),
@@ -42,7 +42,7 @@ function loco() {
 
 }
 
-// document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 function menu() {
     const menu = document.getElementById('nav');
